@@ -1,0 +1,9 @@
+.loading-container {
+    height: 42vh;
+    width: 50vw;
+    background-color: var(--text);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background: none;
+}
