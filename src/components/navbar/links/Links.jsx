@@ -3,6 +3,7 @@ import Link from "next/link"
 import NavLink from './navLink/navLink'
 import styles from './links.module.css'
 import { useState } from 'react'
+import Image from "next/image"
 
 const linksArray = [
     { 
@@ -50,7 +51,7 @@ const Links = () => {
             }
         </div>
         <button onClick={() => setOpen((prev) => !prev)} className={styles.menu_button}>
-            <Link href="/menu" alt="" fill width={50} height={50}></Link>
+            <Image src="/menu.png" alt="menu button" width={50} height={50} />
         </button>
         {
             open && <div className={styles.mobile_links}>
