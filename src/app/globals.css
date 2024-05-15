@@ -58,7 +58,7 @@ a {
     }
 }
 
-@media sccreen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .container {
         width: 640px;
     }
@@ -67,5 +67,11 @@ a {
 @media screen and (max-width: 640px) {
     .container {
         width: 475px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .container {
+        width: 380px;
     }
 }

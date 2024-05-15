@@ -9,8 +9,8 @@ const ContactPage = () => {
       </section>
       <section className={styles.formContainer}>
         <form action="" className={styles.form}>
-          <input type="text" placeholder="first name and Surname" required/>
-          <input type="text" placeholder="Email Address" required/>
+          <input type="text" placeholder="Full name" required/>
+          <input type="email" placeholder="Email Address" required/>
           <input type="tel" placeholder="Phone number (Optional)" />
           <textarea 
           name="" 
