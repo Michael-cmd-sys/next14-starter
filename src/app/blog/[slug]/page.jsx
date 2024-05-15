@@ -1,5 +1,6 @@
 import Image from "next/image"
 import styles from "./singlePost.module.css"
+import PostUser from "@/components/postUser/postUser"
 
 const SinglePostPage = () => {
   return (
@@ -19,12 +20,8 @@ const SinglePostPage = () => {
           width={50}
           height={50}
           className={styles.avatar} />
+          <PostUser />
           <div className={styles.detailText}>
-            <span className={styles.detailTitle}>Author</span>
-            <span className={styles.detailValue}>Bruce Wayne</span>
-          </div>
-          <div className={styles.detailText}>
-
             <span className={styles.detailTitle}>Published</span>
             <span className={styles.detailValue}>21.05.2024</span>
           </div>

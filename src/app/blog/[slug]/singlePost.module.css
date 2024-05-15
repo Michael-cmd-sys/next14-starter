@@ -20,15 +20,6 @@
     gap: 50px;
 }
 
-.title {
-    font-size: 64px; 
-}
-
-.detail {
-    display: flex;
-    gap: 20px;
-}
-
 .detailText {
     display: flex;
     flex-direction: column;
@@ -42,6 +33,15 @@
 
 .detailValue {
     font-weight: 500;
+}
+
+.title {
+    font-size: 64px; 
+}
+
+.detail {
+    display: flex;
+    gap: 20px;
 }
 
 .content {
